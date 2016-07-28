@@ -22,8 +22,8 @@ config.action_mailer.smtp_settings = {
   address:              'smtp.gmail.com',
   port:                 587,
   domain:               'no-reply.com',
-  user_name:            'mailerrailstesting@gmail.com',
-  password:             'Mailerrails123',
+  user_name:            'example@gmail.com',
+  password:             'password',
   authentication:       'plain',
   enable_starttls_auto: true  }
 
