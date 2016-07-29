@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+
+  devise_for :users, controllers: {omniauth_callbacks: "omniauth_callbacks"}
+
+
   resources :books
-  devise_for :users
 
   root 'books#index'
   # The priority is based upon order of creation: first created -> highest priority.
